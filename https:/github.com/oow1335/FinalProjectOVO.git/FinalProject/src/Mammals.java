@@ -1,4 +1,4 @@
-// this is the Mammals charateristics
+// this is the Mammals character
 public class Mammals {
 	
 	private String name;
@@ -7,10 +7,10 @@ public class Mammals {
 	public Mammals (String mammalName, int mammalLeg)
 	{
 		name = mammalName;
-		legs = mammalLegs;
+		legs = mammalLeg;
 	}
 	public String toString() {
-		return "Mammal class: " + " is named " + name + "Legs: " + age;
+		return "Mammal class: " + " is named " + name + "Legs: ";
 	}
 	
 	
